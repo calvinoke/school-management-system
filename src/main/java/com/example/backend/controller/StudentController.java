@@ -1,6 +1,6 @@
 package com.example.backend.controller;
 
-import com.example.backend.Entity.Addstudent; // Import the Addstudent entity for handling student data
+import com.example.backend.entity.Addstudent;
 import com.example.backend.service.StudentService; // Import the StudentService to interact with business logic
 import org.springframework.beans.factory.annotation.Autowired; // Import for dependency injection
 import org.springframework.http.ResponseEntity; // Import for creating HTTP responses
